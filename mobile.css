@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.lupa {
+  position: absolute;
+  left: 87.5%;
+  right: 30.2%;
+  bottom: 90.27%;
+}
+.bars {
+  position: absolute;
+  right: 88.5%;
+  top: 7.2%;
+  bottom: 90.27%;
+}
+.article {
+  position: absolute;
+  right: 60.5%;
+  bottom: 81.4%;
+}
+.fecha {
+  position: absolute;
+  left: 60.5%;
+  bottom: 82%;
+}
+.wrapper {
+  max-height: 120px;
+  display: flex;
+  overflow-x: auto;
+}
+.wrapper::-webkit-scrollbar {
+  width: 0;
+}
+.wrapper .item {
+  min-width: 110px;
+  height: 110px;
+  line-height: 110px;
+  text-align: center;
+  background-color: rgb(253, 0, 0);
+  margin-right: 40px;
+}
+img {
+  padding: 10px;
+}
+.flores {
+  border-radius: 30px;
+  width: 220px;
+}
+.mar {
+  width: 220px;
+  border-radius: 30px;
+}
+.paisaje {
+  width: 220px;
+  border-radius: 30px;
+}
